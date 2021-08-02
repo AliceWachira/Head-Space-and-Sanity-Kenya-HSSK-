@@ -17,11 +17,11 @@ h2{
     text-align: center;
     margin: -30px;
     margin-bottom: 5px;
+    margin-top: 20px;
 }
 img{
     width: 48%;
-    margin-top: -5px;
-    margin-left: -10px;
+    
 }
 .aboutdiv3{
     width: 50%;
@@ -29,6 +29,9 @@ img{
     margin-top: -10px;
     margin-left: -5px;
     
+}
+h3{
+    color: rgb(163, 28, 96);
 }
 
 
