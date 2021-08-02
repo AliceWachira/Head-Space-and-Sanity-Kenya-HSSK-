@@ -4,11 +4,13 @@
 
 .sign-up {
     background-color: #EBDDDD;
-    width: 55%;
+    width: 65%;
     margin-top: 10px;
+    margin-left: 18%;
 }
 
 .sign-up-heading {
+    padding: 50px 0px 0px 0px;
     text-align: center;
     font-family: Work Sans Font;
     font-style: ExtraBold;
@@ -19,4 +21,37 @@
     text-align: center;
     font-weight: 400;
     Font-size: 20px;
+}
+
+#line {
+    align-items: center;
+}
+
+.line1 {
+    border-top: 2px dotted rgb(134, 23, 23);
+}
+
+.sign-up-container label {
+    display: inline-block;
+    width: 15%;
+    text-align: right;
+    margin: 10px;
+}
+
+.namelable,
+.emaillable,
+.passwordlable {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+input[type=text] {
+    width: 60%;
+    padding: 13px 30px;
+    margin: 5px;
+    margin-left: 10px;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    background-color: #C4C4C4;
 }
