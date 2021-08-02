@@ -26,12 +26,17 @@ img{
 .aboutdiv3{
     width: 50%;
     float: right;
-    margin-top: -10px;
-    margin-left: -5px;
+    margin-top: -5px;
+    margin-left: -20px;
+    background-color: beige;
     
 }
 h3{
     color: rgb(163, 28, 96);
+}
+.p{
+    font-weight: 700;
+    color: black;
 }
 
 
