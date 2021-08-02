@@ -17,16 +17,16 @@ h2{
     text-align: center;
     margin: -30px;
     margin-bottom: 5px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 img{
-    width: 48%;
+    width:49%;
     
 }
 .aboutdiv3{
     width: 50%;
     float: right;
-    margin-top: -5px;
+    margin-top: -2px;
     margin-left: -20px;
     background-color: beige;
     
@@ -37,6 +37,10 @@ h3{
 .p{
     font-weight: 700;
     color: black;
+}
+.aboutdiv2{
+    background-image: url('https://thumbs.dreamstime.com/b/close-up-hands-making-heart-symbol-background-blue-sky-clouds-love-charity-valentines-day-concept-close-up-189993194.jpg');
+    height: ;
 }
 
 
