@@ -1,0 +1,22 @@
+* {
+    margin: 10px;
+}
+
+.sign-up {
+    background-color: #EBDDDD;
+    width: 55%;
+    margin-top: 10px;
+}
+
+.sign-up-heading {
+    text-align: center;
+    font-family: Work Sans Font;
+    font-style: ExtraBold;
+    Font-size: 40px;
+}
+
+.begin-journey {
+    text-align: center;
+    font-weight: 400;
+    Font-size: 20px;
+}
