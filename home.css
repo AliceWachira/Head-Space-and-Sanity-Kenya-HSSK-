@@ -1,0 +1,190 @@
+.header{
+    width: auto;
+    height:550px;
+    background-image: url(./images/b2.jpeg);
+    background-repeat: no-repeat,repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.header>#logo{
+    float: left;
+    margin-top: 0;
+    height: 100px;
+    width: 100px;
+}
+.header>h3{
+    color:purple;
+    left:100px;
+ 
+}
+.nav-row{
+    float: right;
+    position: relative;
+     margin-right: 0px;
+    padding: 15px;
+    top: 0px;
+    position: relative;
+    padding:20px;
+    
+}
+.appointment{
+    background-color: #FA8072;
+    width: 300PX;
+    height: 100px;
+    left: 500px;
+    top:300px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+}
+.header>p{
+    font-size: 25px;
+    
+}
+
+.header>.nav-row>a{
+    color:black;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 0;
+    line-height: 1.5em;
+
+}
+.about{
+    width: auto;
+    height: 550px;
+    background-image: url(./images/about.jpg);
+    background-repeat:no-repeat repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+.about>h1{
+    font-weight:700;
+    color: #FA8072;
+}
+.about>p{
+    color:white;
+    font-weight: 700;
+    font-size: 30px;
+}
+.about>button{
+    width: 374px;
+    height: 98px;
+    background-color: #FA8072;
+    border-radius:30px;
+    border-style: none;
+    color: white;
+    font-size: 25px;
+}
+.about>h3{
+    color:#9D1778;
+    font-size: 30px;
+    font-style: italic;
+
+
+}
+
+.psychiatrists{
+    height: 850px;
+    width: auto;
+    background-color:cyan;
+    align-items: center;
+}
+.psychiatrists>h2{
+    color: #800000;
+    align-items: center;
+    text-align: center;
+}
+
+table{
+    height: 700px;
+    font-size: 20px;
+    font-weight: 700;
+    border-collapse: collapse;
+    border-spacing: 5px;
+}
+.psychiatrists{
+        height: 850px;
+        width: auto;
+        background-color:cyan;
+    }
+.psychiatrists>h2{
+        color: #800000;
+        align-items: center;
+        text-align: center;
+}
+.container1{
+    background-image: url(./images/testimonials.jpeg);
+    box-shadow:inset 0 0 0 2000px rgba(255, 0, 150, 0.3);
+    background-repeat: no-repeat repeat;
+    width: auto;
+    background-size: cover;
+    height: 500px;
+}
+ .container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container1>h2{
+    color:cyan;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+.box{
+    height:500px;
+    width:25%;
+}
+.box>img{
+    border-radius: 300px;
+}
+.box>p{
+    color:white;
+    font-size: 15px;
+    width: 350px;
+    line-height: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.partners{
+    height: 350px;
+    width: auto;
+    background-color: white;
+}
+
+.partners>h2{
+    text-align: center;
+    font-size: 20px;
+    font-style:  font-family: "Times New Roman", Times, serif;
+    }
+.logos1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer{
+    width: auto;
+    height: 550px;
+    background-color: cyan;
+}
+#box{
+    text-align: center;
+    font-size:25px;
+    font-weight: 700;
+    color:#800000;
+    top: 520px;
+}
+#copyright{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
