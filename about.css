@@ -1,10 +1,10 @@
 .aboutdiv1{
     font-size: xx-large;
-    background-color: blue;
+    background-color: lightblue;
 }
 .aboutdiv1 > h1{
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 .aboutdiv1 > p{
     color: rgb(182, 48, 75);
@@ -21,14 +21,16 @@ h2{
 }
 img{
     width:49%;
+
     
 }
 .aboutdiv3{
     width: 50%;
     float: right;
-    margin-top: -2px;
+    margin-top: 40px;
     margin-left: -20px;
     background-color: beige;
+    line-height: 25px;
     
 }
 h3{
@@ -38,9 +40,38 @@ h3{
     font-weight: 700;
     color: black;
 }
+
+.aboutdiv2>img{
+    width: 100%;
+    margin-top: -30px;
+    
+    
+}
 .aboutdiv2{
-    background-image: url('https://thumbs.dreamstime.com/b/close-up-hands-making-heart-symbol-background-blue-sky-clouds-love-charity-valentines-day-concept-close-up-189993194.jpg');
-    height: ;
+    font-size: 20px;
+    float: center;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    margin-top: -20px;
+}
+.aboutcenter{
+    position: absolute;
+    margin-left: 400px;
+    width: 40%;
+    margin-top: -400px;
+
+
+}
+.aboutdiv2>div>img{
+    width: 100%;
+}
+.aboutcenter>h1{
+    color: red;
+}
+.aboutcenter>p{
+    color: black;
+    font-weight: 700;
 }
 
 
