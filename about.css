@@ -1,15 +1,27 @@
 .aboutdiv1{
     font-size: xx-large;
     background-color: lightblue;
+
 }
 .aboutdiv1 > h1{
-    margin-top: 0px;
+    margin-top: -120px;
     margin-bottom: 5px;
+    position: absolute;
+    width: 40%;
+    margin-left: 150px;
+
+    
 }
 .aboutdiv1 > p{
     color: rgb(182, 48, 75);
     margin-top: 0px;
     font-weight: bolder;
+    margin-top: -60px;
+    margin-bottom: 5px;
+    position: absolute;
+    width: 40%;
+    margin-left: 150px;
+
 }
 h2{
     background-color: black;
@@ -73,5 +85,35 @@ h3{
     color: black;
     font-weight: 700;
 }
-
+.aboutleaders{
+    display: flex;
+    background-color: lightgrey;
+    height: 400px;
+    justify-content: space-between;
+}
+.leader{
+    width: 80%;
+    border-radius: 50px 50px 50px 50px;
+    position: relative;
+    margin-top: 50px;
+    height: 350px;
+    margin-left: 60px;
+    margin-right: 10px;
+}
+.leader>h5{
+    color: darkblue;
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: -2px;
+}
+.leader>p{
+    font-size: 22px;
+    font-weight: bolder;
+    margin-top: -30px;
+}
+#aboutlogo{
+    width: 10%;
+    float: center;
+    
+}
 
