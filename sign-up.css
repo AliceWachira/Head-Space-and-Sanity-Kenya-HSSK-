@@ -5,6 +5,7 @@
 .sign-up {
     background-color: #EBDDDD;
     width: 65%;
+    height: 90%;
     margin-top: 10px;
     margin-left: 18%;
 }
@@ -40,18 +41,55 @@
 
 .namelable,
 .emaillable,
-.passwordlable {
+.passwordlable,
+.repeat-passwordlable,
+.agelable,
+.genderlable,
+.locationlable {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     font-weight: 300;
 }
 
+.femalelable,
+.malelable {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+
 input[type=text] {
-    width: 60%;
+    width: 45%;
     padding: 13px 30px;
     margin: 5px;
     margin-left: 10px;
     border: 2px solid #ccc;
-    border-radius: 7px;
+    border-radius: 9px;
     background-color: #C4C4C4;
+}
+
+input[type=location] {
+    width: 15%;
+    padding: 13px 30px;
+    margin: 5px;
+    margin-left: 10px;
+    border: 2px solid #ccc;
+    border-radius: 9px;
+    background-color: #C4C4C4;
+}
+
+input[type=number] {
+    width: 1%;
+    padding: 13px 30px;
+    margin: 5px;
+    margin-left: 10px;
+    border: 2px solid #ccc;
+    border-radius: 9px;
+    background-color: #C4C4C4;
+}
+
+input[type=radio] {
+    width: 4%;
+    position: absolute;
+    border-radius: 50%;
 }

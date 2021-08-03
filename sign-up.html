@@ -21,13 +21,33 @@
             <div class="sign-up-container">
                 <form class="signupform">
                     <span class="namelable"><label for="your-name">Name:</label></span>
-                    <input type="text" placeholder="Enter your name" name="your-name" id="your-name" required>
+                    <input type="text" placeholder="Enter your name" name="your-name" id="your-name" required> <br>
 
                     <span class="emaillable"><label for="your-email">Email:</label></span>
-                    <input type="text" placeholder="Enter your email" name="your-email" id="your-email" required>
+                    <input type="text" placeholder="Enter your email" name="your-email" id="your-email" required> <br>
 
                     <span class="passwordlable"><label for="your-password">Password:</label></span>
-                    <input type="text" placeholder="Enter your pasword" name="your-pasword" id="your-password" required>
+                    <input type="text" placeholder="Enter your pasword" name="your-pasword" id="your-password" required> <br>
+
+                    <span class="repeat-passwordlable"><label for="repeatyour-password">Confirm Password:</label></span>
+                    <input type="text" placeholder="Confirm your pasword" name="repeatyour-password" id="repeatyour-password" required> <br>
+
+                    <span class="locationlable"><label for="your-location">Location:</label></span>
+                    <input type="location" name="your-location" id="your-location" required> <br>
+
+                    <span class="agelable"><label for="your-age">Age:</label></span>
+                    <input type="number" min="5" max="100" name="your-age" id="your-age" value="18" required>
+                    <br>
+
+                    <span class="genderlable"><label for="your-gender">Gender</label></span>
+                    <input type="radio" id="your-gendermale" name="your-gendermale" value="Male">
+                    <span class="malelable"><label for="your-gendermale">Male</label></span> <br>
+                    <input type="radio" id="your-genderfemale" name="your-genderfemale" value="Female">
+                    <span class="femalelable"><label for="your-genderfemale">Female</label></span>
+                    <div class="button">
+                        <button type="button" class="cancelbutton">Cancel</button>
+                        <button type="submit" class="signupbutton">Sign Up</button>
+                    </div>
                 </form>
             </div>
         </div>
