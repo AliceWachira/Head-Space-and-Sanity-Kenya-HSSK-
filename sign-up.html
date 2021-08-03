@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+
+
 <html>
 
 
@@ -40,10 +43,14 @@
                     <br>
 
                     <span class="genderlable"><label for="your-gender">Gender</label></span>
-                    <input type="radio" id="your-gendermale" name="your-gendermale" value="Male">
-                    <span class="malelable"><label for="your-gendermale">Male</label></span> <br>
-                    <input type="radio" id="your-genderfemale" name="your-genderfemale" value="Female">
+                    <span class="malelable"><label for="your-gendermale">Male</label></span>
+                    <input checked="checked" type="radio" id="your-gendermale" name="user_level" value="1"> <br>
+
                     <span class="femalelable"><label for="your-genderfemale">Female</label></span>
+                    <input type="radio" id="your-genderfemale" name="user_level" value="2">
+
+
+
                     <div class="button">
                         <button type="button" class="cancelbutton">Cancel</button>
                         <button type="submit" class="signupbutton">Sign Up</button>
@@ -66,13 +73,18 @@
             </h4>
 
             <div class="sign-in-container">
-                <form action="#signin" class="signiform">
+                <form class="signiform">
                     <span class="emaillable"><label for="your-email">Email:</label></span>
                     <input type="text" placeholder="Enter your email" name="your-email" id="your-email" required> <br>
 
 
                     <span class="passwordlable"><label for="your-password">Password:</label></span>
                     <input type="text" placeholder="Enter your pasword" name="your-pasword" id="your-password" required>
+
+                    <div class="button">
+
+                        <button type="submit" class="signinbutton">Sign In</button>
+                    </div>
                 </form>
             </div>
         </div>
