@@ -4,7 +4,7 @@
     background-image: url(./images/b2.jpeg);
     background-repeat: no-repeat,repeat;
     background-size: cover;
-    position: relative;
+
     
 }
 
@@ -17,33 +17,39 @@
 .header>h3{
     color:purple;
     left:100px;
+    margin-left: 120px;
  
 }
 .nav-row{
     float: right;
-    position: relative;
-     margin-right: 0px;
+    margin-right: 0px;
     padding: 15px;
-    top: 0px;
-    position: relative;
+    padding-top: 0;
+    margin-top: -150px;
     padding:20px;
+    
+    
     
 }
 .appointment{
     background-color: #FA8072;
     width: 300PX;
     height: 100px;
-    left: 500px;
-    top:300px;
     border-radius: 30px;
     border: none;
     color: white;
     font-size: 25px;
     font-weight: 700;
     font-style: italic;
+    margin-left:120px ;
+    margin-top: 200px;
+
 }
-.header>p{
+.bio{
     font-size: 25px;
+    margin-left: 800px;
+    margin-top: -250px;
+    line-height: 1.5em;
     
 }
 
@@ -109,10 +115,12 @@ table{
     font-weight: 700;
     border-collapse: collapse;
     border-spacing: 5px;
+    padding: 300px;
+    width:90%;
 }
 .psychiatrists{
-        height: 850px;
-        width: auto;
+        height: 750px;
+        width: 100%;
         background-color:cyan;
     }
 .psychiatrists>h2{
@@ -133,7 +141,7 @@ table{
     flex-direction: row;
     justify-content: space-around;
 }
-.container1>h2{
+.container1>h1{
     color:cyan;
     font-weight: 700;
     text-align: center;
@@ -154,27 +162,54 @@ table{
     font-family: Arial, Helvetica, sans-serif;
 
 }
+.box>h3{
+    text-align: center;
+}
 .partners{
     height: 350px;
-    width: auto;
+    width: 100%;
     background-color: white;
+    
 }
 
 .partners>h2{
     text-align: center;
-    font-size: 20px;
-    font-style:  font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+      font-family: "Times New Roman", Times, serif;
+      
     }
 .logos1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+
 .footer{
     width: auto;
-    height: 550px;
+    height: 450px;
     background-color: cyan;
+
 }
+.footer>#workinghrs{
+    float: left;
+    line-height:1.5em;
+    font-size:25px;
+    margin-left:50px;
+    
+}
+#logos{
+    width:410px;
+    height: 230;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#numbers{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
 #box{
     text-align: center;
     font-size:25px;
@@ -182,9 +217,10 @@ table{
     color:#800000;
     top: 520px;
 }
-#copyright{
+.copyright{
     text-align: center;
     font-size: 20px;
     font-weight: 700;
+    padding-top: 100px;
     
 }
