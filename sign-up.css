@@ -2,14 +2,16 @@
     margin: 10px;
 }
 
-.sign-up {
+.sign-up,
+.signin {
     background-color: #EBDDDD;
     width: 65%;
     margin-top: 10px;
     margin-left: 18%;
 }
 
-.sign-up-heading {
+.sign-up-heading,
+.sign-in-heading {
     padding: 50px 0px 0px 0px;
     text-align: center;
     font-family: Work Sans Font;
@@ -17,7 +19,8 @@
     Font-size: 40px;
 }
 
-.begin-journey {
+.begin-journey,
+.please-signin {
     text-align: center;
     font-weight: 400;
     Font-size: 20px;
