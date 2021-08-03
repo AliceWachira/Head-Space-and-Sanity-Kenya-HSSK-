@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-
-
-
 <html>
 
 
@@ -10,6 +7,14 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="sign-up.css">
     <title>Head Space Sanity Kenya</title>
+    <script type="text/javascript">
+        function lettersOnly(input) {
+            var regex = /^[a - zA - Z] * $ /gi;
+            input.value = input.value.replace(regex, "");
+        }
+    </script>
+    <script src="validate-password.js" defer></script>
+    <script src="index.js" defer></script>
 </head>
 
 <body>
@@ -22,34 +27,42 @@
                 <hr class="line1">
             </div>
             <div class="sign-up-container">
-                <form class="signupform">
+                <form class="signupform" name="form1">
                     <span class="namelable"><label for="your-name">Name:</label></span>
-                    <input type="text" placeholder="Enter your name" name="your-name" id="your-name" required> <br>
+                    <input type="text" placeholder="Eg John Willy" name="your-name" id="your-name" onkeyup="lettersOnly(this)" required> <br>
 
                     <span class="emaillable"><label for="your-email">Email:</label></span>
-                    <input type="text" placeholder="Enter your email" name="your-email" id="your-email" required> <br>
+                    <input type="text" placeholder="johnwilly34@gmail.com" name="your-email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="your-email" required> <br>
 
-                    <span class="passwordlable"><label for="your-password">Password:</label></span>
-                    <input type="text" placeholder="Enter your pasword" name="your-pasword" id="your-password" required> <br>
+                    <span class="passwordlable"><label for="your_password">Password:</label></span>
+                    <input type="password" placeholder="Enter password" name="your_pasword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{9,}" type="submit" id="your_password" required> <br>
+                    <p class="pwdcharacters">Contains at least 9 characters:integer, uppercase and lowercase letter</p>
+                    <span class="repeat_passwordlable"><label for="repeatyour_password">Confirm Password:</label></span>
 
-                    <span class="repeat-passwordlable"><label for="repeatyour-password">Confirm Password:</label></span>
-                    <input type="text" placeholder="Confirm your pasword" name="repeatyour-password" id="repeatyour-password" required> <br>
+                    <input type="password" placeholder="Confirm your pasword" name="repeatyour_password" id="repeatyour_password" required> <br>
+
+
 
                     <span class="locationlable"><label for="your-location">Location:</label></span>
+
+                    <selects id="selectLocation">
+                        <option>Choose a location</option>
+                    </selects>
                     <input type="location" name="your-location" id="your-location" required> <br>
 
                     <span class="agelable"><label for="your-age">Age:</label></span>
-                    <input type="number" min="5" max="100" name="your-age" id="your-age" value="18" required>
+                    <input type="date" min="5" max="100" name="your-age" id="your-age" required>
+
                     <br>
 
-                    <span class="genderlable"><label for="your-gender">Gender</label></span>
-                    <span class="malelable"><label for="your-gendermale">Male</label></span>
-                    <input checked="checked" type="radio" id="your-gendermale" name="user_level" value="1"> <br>
+                    <span class="genderlable"><label for="your-gender">Gender:</label></span> <br>
 
-                    <span class="femalelable"><label for="your-genderfemale">Female</label></span>
-                    <input type="radio" id="your-genderfemale" name="user_level" value="2">
-
-
+                    <div class="radiobuttons">
+                        <label for="malelable">Male</label>
+                        <input checked="checked" type="radio" name="user_level" id="malelable" value="1" /> <br>
+                        <label for="femalelable">Female</label>
+                        <input type="radio" name="user_level" id="femalelable" value="2" /><br>
+                    </div>
 
                     <div class="button">
                         <button type="button" class="cancelbutton">Cancel</button>
@@ -58,7 +71,8 @@
                     <div id="signup-paragraph">
                         <p class="signup-paragraph">
                             Already have an account?
-                            <a href="#signin" target="_blank">Sign in</a>
+                            <a href="sign-in.html" id="sign_in" target="_blank">Sign In</a>
+
                         </p>
                     </div>
                 </form>
@@ -66,31 +80,9 @@
             </div>
 
         </div>
-        <div class="signin">
-            <H2 class="sign-in-heading">Sign In</H2>
-            <h4 class="please-signin">
-                Please sign in to your account.
-            </h4>
 
-            <div class="sign-in-container">
-                <form class="signiform">
-                    <span class="emaillable"><label for="your-email">Email:</label></span>
-                    <input type="text" placeholder="Enter your email" name="your-email" id="your-email" required> <br>
-
-
-                    <span class="passwordlable"><label for="your-password">Password:</label></span>
-                    <input type="text" placeholder="Enter your pasword" name="your-pasword" id="your-password" required>
-
-                    <div class="button">
-
-                        <button type="submit" class="signinbutton">Sign In</button>
-                    </div>
-                </form>
-            </div>
-        </div>
     </section>
-</body>
 
-</html>
+</body>
 
 </html>

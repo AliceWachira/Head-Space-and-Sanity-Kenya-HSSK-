@@ -43,7 +43,7 @@
     .namelable,
     .emaillable,
     .passwordlable,
-    .repeat-passwordlable,
+    .repeat_passwordlable,
     .agelable,
     .genderlable,
     .locationlable {
@@ -56,7 +56,7 @@
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 20px;
         font-weight: 300;
-        margin-left: -19px;
+        margin-left: -12px;
         float: center;
     }
     
@@ -69,6 +69,26 @@
     }
     
     input[type=text] {
+        width: 45%;
+        padding: 13px 30px;
+        margin: 5px;
+        margin-left: 10px;
+        border: 2px solid #ccc;
+        border-radius: 9px;
+        background-color: #C4C4C4;
+    }
+    
+    input[type=date] {
+        width: 25%;
+        padding: 13px 30px;
+        margin: 5px;
+        margin-left: 10px;
+        border: 2px solid #ccc;
+        border-radius: 9px;
+        background-color: #C4C4C4;
+    }
+    
+    input[type=password] {
         width: 45%;
         padding: 13px 30px;
         margin: 5px;
@@ -105,6 +125,12 @@
         margin-left: -130px;
         margin-top: -60px;
         padding: 5px;
+    }
+    
+    .pwdcharacters {
+        text-align: center;
+        width: 300px;
+        margin-left: 120px;
     }
     
     .button {
@@ -176,4 +202,12 @@
         width: 30%;
         margin-left: 140px;
         background-color: #3B6FDA;
+    }
+    
+    .radiobuttons {
+        margin-left: 170px;
+        margin-top: -35px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 17px;
+        font-weight: 300;
     }
