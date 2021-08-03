@@ -94,13 +94,13 @@ input[type=radio] {
 }
 
 .button {
-    margin-left: 60px;
+    margin-left: 110px;
 }
 
 button {
     border-radius: 15px;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: 10px 0;
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
@@ -128,8 +128,17 @@ button:hover {
     background-color: rgb(117, 189, 45);
 }
 
+#signup-paragraph {
+    padding: 15px;
+}
+
 .signup-paragraph {
     font-size: 18px;
     clear: left;
     text-align: center;
+    margin-right: 60px;
+}
+
+.signup-paragraph>a {
+    text-decoration: none;
 }
