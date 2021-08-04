@@ -1,6 +1,7 @@
 # HeadSpace and Sanity Kenya
-#### Latest version updated on:August 8th 2021
-#### By  Alice Wachira
+#### Latest version updated on:August 4th 2021
+#### By :
+Alice Wachira
 Ian Ochenge,
 Emelda Perez and
 Maryann Mwikali
