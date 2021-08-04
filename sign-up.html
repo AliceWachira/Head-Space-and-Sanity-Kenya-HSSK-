@@ -27,12 +27,12 @@
                 <hr class="line1">
             </div>
             <div class="sign-up-container">
-                <form class="signupform" name="form1">
+                <form class="signupform" name="form1" action="sign-up.php" method="POST">
                     <span class="namelable"><label for="your-name">Name:</label></span>
-                    <input type="text" placeholder="Eg John Willy" name="your-name" id="your-name" onkeyup="lettersOnly(this)" required> <br>
+                    <input type="text" placeholder="Eg John Willy" name="your-name" id="your_name" onkeyup="lettersOnly(this)" required> <br>
 
                     <span class="emaillable"><label for="your-email">Email:</label></span>
-                    <input type="text" placeholder="johnwilly34@gmail.com" name="your-email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="your-email" required> <br>
+                    <input type="text" placeholder="johnwilly34@gmail.com" name="your-email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="your_email" required> <br>
 
                     <span class="passwordlable"><label for="your_password">Password:</label></span>
                     <input type="password" placeholder="Enter password" name="your_pasword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{9,}" type="submit" id="your_password" required> <br>
@@ -45,13 +45,11 @@
 
                     <span class="locationlable"><label for="your-location">Location:</label></span>
 
-                    <selects id="selectLocation">
-                        <option>Choose a location</option>
-                    </selects>
-                    <input type="location" name="your-location" id="your-location" required> <br>
 
-                    <span class="agelable"><label for="your-age">Age:</label></span>
-                    <input type="date" min="5" max="100" name="your-age" id="your-age" required>
+                    <input type="location" name="your-location" id="your_location" required> <br>
+
+                    <span class="agelable"><label for="your-age">Date of Birth:</label></span>
+                    <input type="date" name="your-age" id="your_age" required pattern="\d{4}-\d{2}-\d{2}">
 
                     <br>
 
