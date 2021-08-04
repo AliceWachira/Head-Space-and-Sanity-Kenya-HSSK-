@@ -26,10 +26,7 @@
     padding: 15px;
     padding-top: 0;
     margin-top: -150px;
-    padding:20px;
-    
-    
-    
+    padding:20px; 
 }
 .appointment{
     background-color: #FA8072;
@@ -198,16 +195,21 @@ table{
     
 }
 #logos{
-    width:410px;
+    width:500px;
     height: 230;
     margin-left: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content:center;
+    background-color:maroon;
 }
 #numbers{
     margin-top: 20px;
     margin-left: 50px;
+    font-size: 25px;
+    font-weight: 700;
+
 }
 
 #box{
@@ -219,7 +221,7 @@ table{
 }
 .copyright{
     text-align: center;
-    font-size: 20px;
+    font-size: 13px;
     font-weight: 700;
     padding-top: 100px;
     
