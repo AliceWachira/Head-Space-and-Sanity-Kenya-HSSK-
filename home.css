@@ -13,11 +13,13 @@
     margin-top: 0;
     height: 100px;
     width: 100px;
+    margin-top: 15px;
 }
 .header>h3{
     color:purple;
     left:100px;
     margin-left: 120px;
+    margin-top: 15px;
  
 }
 .nav-row{
@@ -25,8 +27,9 @@
     margin-right: 0px;
     padding: 15px;
     padding-top: 0;
-    margin-top: -150px;
+    margin-top: -110px;
     padding:20px; 
+    
 }
 .appointment{
     background-color: #FA8072;
@@ -40,7 +43,6 @@
     font-style: italic;
     margin-left:120px ;
     margin-top: 200px;
-
 }
 .bio{
     font-size: 28px;
