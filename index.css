@@ -1,81 +1,113 @@
-header{
-    height: 200px;
-    background-color:cadetblue;
+.header {
+    height: 150px;
+    background-color: steelblue;
 }
-nav{
-    justify-content: space-around;
-    display:flex;
-    padding:50px;
-    height: 50px;
-    font-weight:700;
-    font-size:20px;
+
+.header1 {
+    background-color: steelblue;
 }
-a{
+
+.header>#logo {
+    float: left;
+    margin-top: 0;
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+}
+
+.header>.nav-row>a {
+    color: black;
     text-decoration: none;
-    color:black;
-    font-size: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: -20px;
+    line-height: 1.5em;
 }
-.logo{
-    display:flex;
+
+.header>h3 {
+    color: purple;
+    left: 100px;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+
+.nav-row {
+    float: right;
+    margin-right: 0px;
+    padding: 15px;
+    padding-top: 0;
+    margin-top: -110px;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items:flex-start;
-    margin-top:-50px;
-    margin-left:-110px;
+    align-items: flex-start;
+    margin-top: -50px;
+    margin-left: -110px;
 }
-.para1{
-    text-align:center;
+
+.para1 {
+    text-align: center;
     background-color: steelblue;
-    font-size:20px;
-    height:150px;
+    font-size: 20px;
+    height: 150px;
 }
-#b1{
+
+#b1 {
     border-radius: 15px;
-    height:40px;
-    width:500px;
-    color:black;
-    background-color:white;
-    text-align:center;
-    border-style:none;
+    height: 40px;
+    width: 500px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    border-style: none;
 }
-#heading{
-    text-decoration:underline;
-    text-align:center;
+
+#heading {
+    text-decoration: underline;
+    text-align: center;
 }
-.FAQ{
-    background-color:white;
-    height:200px;
-    color:black;
+
+.FAQ {
+    background-color: white;
+    height: 200px;
+    color: black;
     margin: 20px;
-    display:flex;
-    text-align:center;
+    display: flex;
+    text-align: center;
     font-size: 15px;
-    border-bottom-right-radius:20px;
+    border-bottom-right-radius: 20px;
     width: 250px;
-    position:relative;
+    position: relative;
     flex-direction: column;
 }
-.why{
-    background-color: white;
-    height:400px;
-    color:black;
-    text-align:left;
-    font-size:15px;
-    border-bottom-left-radius:20px;
-    width:600px;
-    float:right;
-    right:50px;
-    position:absolute;
-    margin-top:-880px;
 
+.why {
+    background-color: white;
+    height: 400px;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    border-bottom-left-radius: 20px;
+    width: 600px;
+    float: right;
+    right: 50px;
+    position: absolute;
+    margin-top: -880px;
 }
-.benefits{
+
+.benefits {
     line-height: 50px;
 }
-footer{
+
+footer {
     text-align: center;
-    background-color:steelblue;
+    background-color: steelblue;
 }
-body{
-    background-image:url(https://media.istockphoto.com/photos/silhouette-of-troubled-person-head-picture-id1064027420?k=6&m=1064027420&s=612x612&w=0&h=vRTOtWXLm89Ez3mxyJOOG7wJ4XqiGN-0eUUWpiIs48M=);
+
+body {
+    background-image: url(https://media.istockphoto.com/photos/silhouette-of-troubled-person-head-picture-id1064027420?k=6&m=1064027420&s=612x612&w=0&h=vRTOtWXLm89Ez3mxyJOOG7wJ4XqiGN-0eUUWpiIs48M=);
 }
