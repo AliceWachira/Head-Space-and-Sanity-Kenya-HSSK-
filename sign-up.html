@@ -9,7 +9,7 @@
     <title>Head Space Sanity Kenya</title>
     <script type="text/javascript">
         function lettersOnly(input) {
-            var regex = /^[a - zA - Z] * $ /gi;
+            var regex = /^[a - zA - Z] * $/gi;
             input.value = input.value.replace(regex, "");
         }
     </script>
@@ -36,7 +36,7 @@
 
                     <span class="passwordlable"><label for="your_password">Password:</label></span>
                     <input type="password" placeholder="Enter password" name="your_pasword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{9,}" type="submit" id="your_password" required> <br>
-                    <p class="pwdcharacters">Contains at least 9 characters:integer, uppercase and lowercase letter</p>
+                    <p class="pwdcharacters">Must contain at least 9 characters:integer, uppercase and lowercase letter</p>
                     <span class="repeat_passwordlable"><label for="repeatyour_password">Confirm Password:</label></span>
 
                     <input type="password" placeholder="Confirm your pasword" name="repeatyour_password" id="repeatyour_password" required> <br>
