@@ -1,37 +1,54 @@
-.header{
+.header {
     width: auto;
-    height:550px;
-    background-image: url(./images/b2.jpeg);
-    background-repeat: no-repeat,repeat;
+    height: 550px;
+    background-image: url("homepagebackground.jpeg");
+    background-repeat: no-repeat, repeat;
     background-size: cover;
-
-    
 }
 
-.header>#logo{
+button:hover {
+    opacity: 2;
+    background-color: rgb(117, 189, 45);
+}
+
+.appointment1>button:hover {
+    opacity: 2;
+    background-color: rgb(117, 189, 45);
+}
+
+.appointment>a {
+    text-decoration: none;
+}
+
+.appointment1>a {
+    text-decoration: none;
+}
+
+.header>#logo {
     float: left;
     margin-top: 0;
     height: 100px;
     width: 100px;
     margin-top: 15px;
 }
-.header>h3{
-    color:purple;
-    left:100px;
+
+.header>h3 {
+    color: purple;
+    left: 100px;
     margin-left: 120px;
     margin-top: 15px;
- 
 }
-.nav-row{
+
+.nav-row {
     float: right;
     margin-right: 0px;
     padding: 15px;
     padding-top: 0;
     margin-top: -110px;
-    padding:20px; 
-    
+    padding: 20px;
 }
-.appointment{
+
+.appointment {
     background-color: #FA8072;
     width: 300PX;
     height: 100px;
@@ -41,217 +58,232 @@
     font-size: 25px;
     font-weight: 700;
     font-style: italic;
-    margin-left:120px ;
+    margin-left: 120px;
     margin-top: 200px;
 }
-.bio{
+
+.bio {
     font-size: 28px;
     margin-left: 800px;
     margin-top: -250px;
     line-height: 1.5em;
     font-weight: 650;
-    
 }
 
-.header>.nav-row>a{
-    color:black;
+.header>.nav-row>a {
+    color: black;
     text-decoration: none;
     font-size: 35px;
     font-weight: 700;
     margin-top: 0;
     line-height: 1.5em;
-
 }
-.about{
+
+.about {
     width: auto;
     height: 550px;
     background-image: url(./images/about.jpg);
-    background-repeat:no-repeat repeat;
+    background-repeat: no-repeat repeat;
     background-size: cover;
     align-items: center;
     text-align: center;
 }
-.about>h1{
-    font-weight:700;
+
+.about>h1 {
+    font-weight: 700;
     color: #FA8072;
 }
-.about>p{
-    color:white;
+
+.about>p {
+    color: white;
     font-weight: 700;
     font-size: 30px;
 }
-.about>button{
+
+.about>button {
     width: 374px;
     height: 98px;
     background-color: #FA8072;
-    border-radius:30px;
+    border-radius: 30px;
     border-style: none;
     color: white;
     font-size: 25px;
 }
-.about>h3{
-    color:#9D1778;
+
+.about>h3 {
+    color: #9D1778;
     font-size: 30px;
     font-style: italic;
-
-
 }
 
-.psychiatrists{
+.psychiatrists {
     height: 1000px;
     width: auto;
-    background-color:cyan;
     align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/268415/pexels-photo-268415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 }
-.psychiatrists>h2{
+
+.psychiatrists>h2 {
     color: #800000;
     align-items: center;
     text-align: center;
     padding: 10px;
 }
 
-table{
+table {
     height: 700px;
     font-size: 20px;
     font-weight: 700;
     border-collapse: collapse;
     border-spacing: 5px;
     padding: 300px;
-    width:90%;
+    width: 90%;
 }
-.psychiatrists{
-        height: 750px;
-        width: 100%;
-        background-color:cyan;
-    }
-.psychiatrists>h2{
-        color: #800000;
-        align-items: center;
-        text-align: center;}
-        .ray,.tom{
-            border-radius: 250px;  
-        }
-.liam{
+
+.psychiatrists {
+    height: 750px;
+    width: 100%;
+    background-color: cyan;
+}
+
+.psychiatrists>h2 {
+    color: #800000;
+    align-items: center;
+    text-align: center;
+}
+
+.ray,
+.tom {
+    border-radius: 250px;
+}
+
+.liam {
     margin-top: -10px;
     border-radius: 250px;
 }
 
-.container1{
+.container1 {
     background-image: url(./images/testimonials.jpeg);
-    box-shadow:inset 0 0 0 2000px rgba(255, 0, 150, 0.3);
+    box-shadow: inset 0 0 0 2000px rgba(255, 0, 150, 0.3);
     background-repeat: no-repeat repeat;
     width: auto;
     background-size: cover;
     height: 550px;
 }
- .container2{
+
+.container2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.container1>h1{
-    color:cyan;
+
+.container1>h1 {
+    color: cyan;
     font-weight: 700;
     text-align: center;
     font-family: "Times New Roman", Times, serif;
     padding: 15px;
 }
-.box{
-    height:500px;
-    width:25%;
+
+.box {
+    height: 500px;
+    width: 25%;
 }
-.box>img{
+
+.box>img {
     border-radius: 300px;
 }
-.box>p{
-    color:white;
-    font-size: 15px;
-    width: 350px;
-    line-height: 1.7em;
-    font-family: Arial, Helvetica, sans-serif;
 
+.box>p {
+    color: rgb(10, 7, 7);
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 1.0em;
+    font-size: 20px;
 }
-.box>h3{
+
+.box>h3 {
     text-align: center;
-    }
-.partners{
+}
+
+.partners {
     height: 350px;
     width: 100%;
     background-color: white;
-    
 }
 
-.partners>h2{
+.partners>h2 {
     text-align: center;
     font-size: 50px;
-      font-family: "Times New Roman", Times, serif;
-      
-    }
-.logos1{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.logos1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.footer{
+.footer {
     width: auto;
     height: 450px;
     background-color: cyan;
+}
 
-}
-.footer>#workinghrs{
+.footer>#workinghrs {
     float: left;
-    line-height:1.5em;
-    font-size:25px;
-    margin-left:50px;
-    
-    
+    line-height: 1.5em;
+    font-size: 25px;
+    margin-left: 50px;
 }
-#logos{
+
+#logos {
     margin-left: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:center;
-    
+    justify-content: center;
 }
-.footer-images{
+
+.footer-images {
     height: 20%;
     width: 15%;
 }
-.footer-images1{
+
+.footer-images1 {
     height: 10%;
     width: 10%;
     margin-top: 20px;
 }
-.footer-images2{
+
+.footer-images2 {
     height: 10%;
     width: 10%;
     margin-top: 120px;
     margin-left: -350px;
-
 }
-#numbers{
+
+#numbers {
     margin-top: 120px;
     margin-left: 5px;
     font-size: 25px;
     font-weight: 700;
-
 }
 
-#box{
+#box {
     text-align: center;
-    font-size:25px;
+    font-size: 25px;
     font-weight: 700;
-    color:#800000;
+    color: #800000;
     top: 520px;
     text-align: center;
-   
 }
-.copyright{
+
+.copyright {
     text-align: center;
     font-size: 13px;
     font-weight: 700;
     padding-top: 100px;
-    
 }

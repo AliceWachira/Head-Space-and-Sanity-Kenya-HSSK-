@@ -3,6 +3,11 @@
     background-color: steelblue;
 }
 
+button:hover {
+    opacity: 2;
+    background-color: rgb(117, 189, 45);
+}
+
 .header1 {
     background-color: steelblue;
 }

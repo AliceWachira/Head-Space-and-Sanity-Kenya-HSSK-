@@ -1,213 +1,235 @@
-    * {
-        margin: 10px;
-    }
-    
-    .sign-up {
-        background-color: #EBDDDD;
-        width: 65%;
-        margin-top: 10px;
-        margin-left: 18%;
-    }
-    
-    .sign-up-heading,
-    .sign-in-heading {
-        padding: 50px 0px 0px 0px;
-        text-align: center;
-        font-family: Work Sans Font;
-        font-style: ExtraBold;
-        Font-size: 40px;
-    }
-    
-    .begin-journey,
-    .please-signin {
-        text-align: center;
-        font-weight: 400;
-        Font-size: 20px;
-    }
-    
-    #line {
-        align-items: center;
-    }
-    
-    .line1 {
-        border-top: 2px dotted rgb(134, 23, 23);
-    }
-    
-    .sign-up-container label {
-        display: inline-block;
-        width: 15%;
-        text-align: right;
-        margin: 10px;
-    }
-    
-    .namelable,
-    .emaillable,
-    .passwordlable,
-    .repeat_passwordlable,
-    .agelable,
-    .genderlable,
-    .locationlable {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 20px;
-        font-weight: 300;
-    }
-    
-    .malelable {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 20px;
-        font-weight: 300;
-        margin-left: -12px;
-        float: center;
-    }
-    
-    .femalelable {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 20px;
-        font-weight: 300;
-        margin-left: 140px;
-        float: center;
-    }
-    
-    input[type=text] {
-        width: 45%;
-        padding: 13px 30px;
-        margin: 5px;
-        margin-left: 10px;
-        border: 2px solid #ccc;
-        border-radius: 9px;
-        background-color: #C4C4C4;
-    }
-    
-    input[type=date] {
-        width: 25%;
-        padding: 13px 30px;
-        margin: 5px;
-        margin-left: 10px;
-        border: 2px solid #ccc;
-        border-radius: 9px;
-        background-color: #C4C4C4;
-    }
-    
-    input[type=password] {
-        width: 45%;
-        padding: 13px 30px;
-        margin: 5px;
-        margin-left: 10px;
-        border: 2px solid #ccc;
-        border-radius: 9px;
-        background-color: #C4C4C4;
-    }
-    
-    input[type=location] {
-        width: 15%;
-        padding: 13px 20px;
-        margin: 5px;
-        margin-left: 10px;
-        border: 2px solid #ccc;
-        border-radius: 9px;
-        background-color: #C4C4C4;
-    }
-    
-    input[type=number] {
-        width: 1%;
-        padding: 13px 30px;
-        margin: 5px;
-        margin-left: 10px;
-        border: 2px solid #ccc;
-        border-radius: 9px;
-        background-color: #C4C4C4;
-    }
-    
-    input[type=radio] {
-        width: 4%;
-        border-radius: 50%;
-        display: table-cell;
-        margin-left: -130px;
-        margin-top: -60px;
-        padding: 5px;
-    }
-    
-    .pwdcharacters {
-        text-align: center;
-        width: 300px;
-        margin-left: 120px;
-    }
-    
-    .button {
-        margin-left: 110px;
-    }
-    
-    button {
-        border-radius: 15px;
-        padding: 14px 20px;
-        margin: 10px 0;
-        cursor: pointer;
-        width: 100%;
-        opacity: 0.9;
-        color: white;
-        border: none;
-        font-size: 23px;
-    }
-    
-    .cancelbutton {
-        float: left;
-        width: 30%;
-        background-color: #D14831;
-        padding: 15px 20px;
-    }
-    
-    .signupbutton {
-        float: left;
-        width: 30%;
-        margin-left: 40px;
-        background-color: #3B6FDA;
-    }
-    
-    button:hover {
-        opacity: 2;
-        background-color: rgb(117, 189, 45);
-    }
-    
-    #signup-paragraph {
-        padding: 15px;
-    }
-    
-    .signup-paragraph {
-        font-size: 18px;
-        clear: left;
-        text-align: center;
-        margin-right: 60px;
-    }
-    
-    .signup-paragraph>a {
-        text-decoration: none;
-    }
-    
-    .signin {
-        background-color: #EBDDDD;
-        width: 65%;
-        margin-top: 60px;
-        margin-left: 18%;
-        padding: 5px;
-    }
-    
-    .sign-in-container label {
-        display: inline-block;
-        width: 15%;
-        text-align: right;
-        margin: 10px;
-    }
-    
-    .signinbutton {
-        width: 30%;
-        margin-left: 140px;
-        background-color: #3B6FDA;
-    }
-    
-    .radiobuttons {
-        margin-left: 170px;
-        margin-top: -35px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 17px;
-        font-weight: 300;
-    }
+* {
+    margin: 10px;
+}
+
+.back {
+    margin-left: 120px;
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: rgb(117, 189, 45);
+}
+
+.back>a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/268415/pexels-photo-268415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+
+.sign-up {
+    background-color: #EBDDDD;
+    width: 65%;
+    margin-top: 10px;
+    margin-left: 18%;
+}
+
+.sign-up-heading,
+.sign-in-heading {
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+    font-family: Work Sans Font;
+    font-style: ExtraBold;
+    Font-size: 40px;
+}
+
+.begin-journey,
+.please-signin {
+    text-align: center;
+    font-weight: 400;
+    Font-size: 20px;
+}
+
+#line {
+    align-items: center;
+}
+
+.line1 {
+    border-top: 2px dotted rgb(134, 23, 23);
+}
+
+.sign-up-container label {
+    display: inline-block;
+    width: 15%;
+    text-align: right;
+    margin: 10px;
+}
+
+.namelable,
+.emaillable,
+.passwordlable,
+.repeat_passwordlable,
+.agelable,
+.genderlable,
+.locationlable {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.malelable {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: -12px;
+    float: center;
+}
+
+.femalelable {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 140px;
+    float: center;
+}
+
+input[type=text] {
+    width: 45%;
+    padding: 13px 30px;
+    margin: 5px;
+    margin-left: 10px;
+    border: 2px solid #ccc;
+    border-radius: 9px;
+    background-color: #C4C4C4;
+}
+
+input[type=date] {
+    width: 25%;
+    padding: 13px 30px;
+    margin: 5px;
+    margin-left: 10px;
+    border: 2px solid #ccc;
+    border-radius: 9px;
+    background-color: #C4C4C4;
+}
+
+input[type=password] {
+    width: 45%;
+    padding: 13px 30px;
+    margin: 5px;
+    margin-left: 10px;
+    border: 2px solid #ccc;
+    border-radius: 9px;
+    background-color: #C4C4C4;
+}
+
+input[type=location] {
+    width: 15%;
+    padding: 13px 20px;
+    margin: 5px;
+    margin-left: 10px;
+    border: 2px solid #ccc;
+    border-radius: 9px;
+    background-color: #C4C4C4;
+}
+
+input[type=number] {
+    width: 1%;
+    padding: 13px 30px;
+    margin: 5px;
+    margin-left: 10px;
+    border: 2px solid #ccc;
+    border-radius: 9px;
+    background-color: #C4C4C4;
+}
+
+input[type=radio] {
+    width: 4%;
+    border-radius: 50%;
+    display: table-cell;
+    margin-left: -130px;
+    margin-top: -60px;
+    padding: 5px;
+}
+
+.pwdcharacters {
+    text-align: center;
+    width: 300px;
+    margin-left: 120px;
+}
+
+.button {
+    margin-left: 110px;
+}
+
+button {
+    border-radius: 15px;
+    padding: 14px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    color: white;
+    border: none;
+    font-size: 23px;
+}
+
+.cancelbutton {
+    float: left;
+    width: 30%;
+    background-color: #D14831;
+    padding: 15px 20px;
+}
+
+.signupbutton {
+    float: left;
+    width: 30%;
+    margin-left: 40px;
+    background-color: #3B6FDA;
+}
+
+button:hover {
+    opacity: 2;
+    background-color: rgb(117, 189, 45);
+}
+
+#signup-paragraph {
+    padding: 15px;
+}
+
+.signup-paragraph {
+    font-size: 18px;
+    clear: left;
+    text-align: center;
+    margin-right: 60px;
+}
+
+.signup-paragraph>a {
+    text-decoration: none;
+}
+
+.signin {
+    background-color: #EBDDDD;
+    width: 65%;
+    margin-top: 60px;
+    margin-left: 18%;
+    padding: 5px;
+}
+
+.sign-in-container label {
+    display: inline-block;
+    width: 15%;
+    text-align: right;
+    margin: 10px;
+}
+
+.signinbutton {
+    width: 30%;
+    margin-left: 140px;
+    background-color: #3B6FDA;
+}
+
+.radiobuttons {
+    margin-left: 170px;
+    margin-top: -35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
