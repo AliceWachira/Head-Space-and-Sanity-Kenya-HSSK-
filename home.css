@@ -43,10 +43,11 @@
 
 }
 .bio{
-    font-size: 25px;
+    font-size: 28px;
     margin-left: 800px;
     margin-top: -250px;
     line-height: 1.5em;
+    font-weight: 650;
     
 }
 
@@ -95,7 +96,7 @@
 }
 
 .psychiatrists{
-    height: 850px;
+    height: 1000px;
     width: auto;
     background-color:cyan;
     align-items: center;
@@ -104,6 +105,7 @@
     color: #800000;
     align-items: center;
     text-align: center;
+    padding: 10px;
 }
 
 table{
@@ -123,15 +125,22 @@ table{
 .psychiatrists>h2{
         color: #800000;
         align-items: center;
-        text-align: center;
+        text-align: center;}
+        .ray,.tom{
+            border-radius: 250px;  
+        }
+.liam{
+    margin-top: -10px;
+    border-radius: 250px;
 }
+
 .container1{
     background-image: url(./images/testimonials.jpeg);
     box-shadow:inset 0 0 0 2000px rgba(255, 0, 150, 0.3);
     background-repeat: no-repeat repeat;
     width: auto;
     background-size: cover;
-    height: 500px;
+    height: 550px;
 }
  .container2{
     display: flex;
@@ -143,6 +152,7 @@ table{
     font-weight: 700;
     text-align: center;
     font-family: "Times New Roman", Times, serif;
+    padding: 15px;
 }
 .box{
     height:500px;
@@ -161,7 +171,7 @@ table{
 }
 .box>h3{
     text-align: center;
-}
+    }
 .partners{
     height: 350px;
     width: 100%;
@@ -193,6 +203,7 @@ table{
     font-size:25px;
     margin-left:50px;
     
+    
 }
 #logos{
     width:500px;
@@ -202,7 +213,7 @@ table{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:center;
-    background-color:maroon;
+    
 }
 #numbers{
     margin-top: 20px;
