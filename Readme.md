@@ -1,9 +1,9 @@
 # HeadSpace and Sanity Kenya
 #### Latest version updated on:August 8th 2021
-#### By ** Alice Wachira
+#### By  Alice Wachira
 Ian Ochenge,
 Emelda Perez and
-Maryann Mwikali**
+Maryann Mwikali
 ## Description
 This website offers a linkage between people affected by mental health issues and suitable psychiatrists.The website implements a simple UI that lets the user interact with the web and find a perfect listening ear who helps them out with their issues.The website incorporates different pages each meant to serve a different purpose that helps a user learn more about the company as they manouvre around. 
 ## Setup/Installation Requirements
