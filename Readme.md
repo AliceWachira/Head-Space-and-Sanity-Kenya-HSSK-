@@ -13,6 +13,8 @@ This website offers a linkage between people affected by mental health issues an
 ## Known Bugs
 Some of the links may not be clickable at the moment but we plan on making them work in the near future.
 ## Technologies Used
+Figma was used to design the website.
+[Visit website](https://www.figma.com/file/3sEfqhJcre6VO8tF5CZUPH/Health-Project?node-id=32%3A21 "HSSK")
 Languages used include HTML, CSS, JavaScript and PHP.HTML was used in writing the code, CSS was used to the pages, Js was intergrated to make the sign up page interactive and PHP implented to store information created on the website as users signed. 
 ## Support and contact details
 Incase of any concerns,ideas or queries feel free to contact us through email:
