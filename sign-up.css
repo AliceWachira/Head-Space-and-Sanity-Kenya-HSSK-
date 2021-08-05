@@ -185,6 +185,11 @@ button {
     background-color: #3B6FDA;
 }
 
+.signupbutton>a {
+    text-decoration: none;
+    color: white;
+}
+
 button:hover {
     opacity: 2;
     background-color: rgb(117, 189, 45);

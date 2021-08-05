@@ -26,7 +26,7 @@
         
           
         // Performing insert query execution
-        // here our table name is personal
+
         $sql = "INSERT INTO personal  VALUES ('your_name', 
             '$your_email','$your_password','$repeatyour_password','$your_location','$your_age','$gender')";
           
