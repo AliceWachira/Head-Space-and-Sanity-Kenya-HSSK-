@@ -9,7 +9,7 @@ Maryann Mwikali
 This website offers a linkage between people affected by mental health issues and suitable psychiatrists.The website implements a simple UI that lets the user interact with the web and find a perfect listening ear who helps them out with their issues.The website incorporates different pages each meant to serve a different purpose that helps a user learn more about the company as they manouvre around. 
 ## Setup/Installation Requirements
 * The website doesn't require any installation requirements.
-* Click on the [deployed work ](https://alicewachira.github.io/Head-Space-and-Sanity-Kenya-HSSK-/)to learn more about us.
+* Click on the [deployed work ](https://alicewachira.github.io/Head-Space-and-Sanity-Kenya-HSSK-/ "HSSK")to learn more about us.
 ## Known Bugs
 Some of the links may not be clickable at the moment but we plan on making them work in the near future.
 ## Technologies Used
